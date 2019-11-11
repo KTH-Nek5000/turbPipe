@@ -1,0 +1,15 @@
+# par file for post-processing fully-developed turbuent pipe flow
+#
+[GENERAL]
+	stopAt = numSteps
+	numSteps = 0
+
+        dt = 0
+
+	userParam05 = 10 	 # STAT_COMP --> param(68)
+	userParam06 = 9	         # Number of sts files
+	userParam07 = 60.0       # mtimes: time from which averaging is considered
+
+[VELOCITY]
+	viscosity = -5850
+	density = 1.

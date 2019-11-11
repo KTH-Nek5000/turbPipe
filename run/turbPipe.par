@@ -1,0 +1,41 @@
+# par file for fully-developed turbuent pipe flow
+#
+[GENERAL]
+	stopAt = numSteps   #endTime 
+	numSteps = 150001
+        #endTime = 1000.0
+	writeControl = timeStep #runTime
+	writeInterval = 2000
+	dealiasing = yes
+   
+        ##Fixed time step
+	dt = -3e-03    
+        ##variable time-step
+        #dt = 0
+        #timeStepper = bdf2
+        #extrapolation = OIFS
+        #variableDt = yes
+        #targetCFL = 2.0
+
+        filtering = hpfrt
+        filterWeight = 10
+        filterCutoffRatio = 0.9
+
+	userParam03 = 0	   	 # IFCHKPTRST (1: if restarted)
+	userParam04 = 10000         # CHKPTSTEP
+	userParam05 = 10	 # STAT_COMP --> param(68)
+	userParam06 = 10000	 # STAT_OUTP --> param(69)
+
+[PROBLEMTYPE]
+	equation = incompNS # incompLinNS
+	variableProperties = no
+
+[PRESSURE]
+	residualtol = 1e-06
+	residualproj = yes
+
+[VELOCITY]
+	viscosity = -5850
+	density = 1.
+	residualtol = 1e-08
+	residualproj = yes

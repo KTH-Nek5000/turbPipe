@@ -1,0 +1,29 @@
+#!/bin/bash
+export CASE="turbPipe"
+
+#-----------------------------------
+#---- SETTINGS
+# source path
+export SOURCE_ROOT="/scratch/salehr/compiledLibs/nek5000/Nek5000_v17"
+#compilers
+export FC="mpifort"
+export CC="mpicc"
+#-----------------------------------
+
+export PPLIST=""
+export USR=""
+
+for il in "$@"
+do 
+case $il in 
+         --clean)
+                ./makenek clean
+                shift
+                ;;
+         --all)
+                ./makenek ${CASE}
+                mv nek5000 ../run
+                shift
+                ;;
+esac
+done
