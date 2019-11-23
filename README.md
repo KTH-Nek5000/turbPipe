@@ -4,7 +4,7 @@ Nek5000 case for simulation and post-processing of fully-developed turbulent pip
   - Nek5000 V17
 
 # Documentation:
-  - To be added ...
+  - See the file turbPipe_tutorial.pdf
 
 # To compile:
   1. cd compile/
