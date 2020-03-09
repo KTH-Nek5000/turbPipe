@@ -4,7 +4,7 @@ Nek5000 case for simulation and post-processing of fully-developed turbulent pip
   - Nek5000 V17
 
 # Documentation:
-  - See the file [turbPipe_tutorial.pdf](https://github.com/KTH-Nek5000/turbPipe/blob/master/turbPipe_tutorial.pdf)
+  - See the [technical report](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-265021)
 
 # To compile:
   1. cd compile/
@@ -15,3 +15,6 @@ Nek5000 case for simulation and post-processing of fully-developed turbulent pip
   1. cd run/
   2. set the number of processors in runBash_local.sh
   3. bash runBash_local.sh
+
+# To generate mesh for the pipe:
+  - Use the gmsh-script [PipeMesh](https://github.com/KTH-Nek5000/PipeMesh) 
