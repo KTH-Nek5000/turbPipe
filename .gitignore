@@ -34,4 +34,26 @@ turbPipe_v17/run/SESSION.NAME
 turbPipe_v17/run/turbPipe.restart
 #
 #v.19
+turbPipe_v19/pp_python/*.pyc
+turbPipe_v19/pp_python/__pycache__
+turbPipe_v19/pp_python/int*
+turbPipe_v19/pp_python/MODULES/__init__.*
+turbPipe_v19/pp_python/OUTPUT/*.txt
+turbPipe_v19/pp_python/MODULES/*.pyc
+turbPipe_v19/pp_nek/build.log
+turbPipe_v19/pp_nek/int_*
+turbPipe_v19/pp_nek/logfile
+turbPipe_v19/pp_nek/obj
+turbPipe_v19/pp_nek/st1turbPipe0*
+turbPipe_v19/pp_nek/st2turbPipe0*
+turbPipe_v19/pp_nek/turbPipe.log*
+turbPipe_v19/pp_nek/DATA/ststurbPipe0*
+turbPipe_v19/pp_nek/DATA/c2D*
+turbPipe_v19/pp_nek/DATA/int_pos
+turbPipe_v19/pp_nek/nek5000
+turbPipe_v19/pp_nek/*.nek5000
+turbPipe_v19/pp_nek/*.ma2
+turbPipe_v19/pp_nek/*.re2
+turbPipe_v19/pp_nek/*.msh
+turbPipe_v19/pp_nek/SESSION.NAME
 
