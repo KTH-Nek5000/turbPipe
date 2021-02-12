@@ -221,7 +221,7 @@ def read_input(filename,s):
    ReTau          = float(params['target_Retau'])
    Rmax           = float(params['Rmax'])
    drp1           = float(params['drp1'])
-   compressedMesh = params['compressedMesh']
+   compressedMesh = int(params['compressedMesh'])
 
    if (s=='main'):
       return Nx,Ny,nu,rho 

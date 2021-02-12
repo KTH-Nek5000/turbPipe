@@ -52,7 +52,7 @@ def write_int_pos(fname,wdsize,emode,data):
 
 def disk(Rmax,compressedMesh,ReTau,drp1,nR,nTh):
     """ polar mesh over a circular disk """
-    if compressedMesh:
+    if (compressedMesh==int(1)):
        dr1=(drp1/ReTau)*Rmax  #distance from the wall of the first off-wall node
        gam=3.0;  #Grid compression controller >1
        xi=np.linspace(0.0,1.0,nR-1)
