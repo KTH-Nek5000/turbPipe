@@ -124,7 +124,7 @@ if __name__ == "__main__":
        lpos[0]=x[il]
        lpos[1]=y[il]
        set_pnt_pos(data,il,lpos)
-       il = il +1
+       
 
     # write points to the file
     write_int_pos(fname,wdsize,emode,data)
