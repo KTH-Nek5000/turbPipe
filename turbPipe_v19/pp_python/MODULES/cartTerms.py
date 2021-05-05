@@ -48,9 +48,9 @@ def comp(db,Nx,Ny,nu,rho):
 
 
 #   Normalized skewness
-#    uskew = np.divide(uuu,np.real(np.power(uu,3/2)))
-#    vskew = np.divide(vvv,np.real(np.power(vv,3/2)))
-#    wskew = np.divide(www,np.real(np.power(ww,3/2)))
+#    uskew = np.divide(uuu,np.real(np.power(uu,1.5)))
+#    vskew = np.divide(vvv,np.real(np.power(vv,1.5)))
+#    wskew = np.divide(www,np.real(np.power(ww,1.5)))
 
 #   Velocity gradient tensor. Tensor of Rank 2.
     dUdx = db['D1']
