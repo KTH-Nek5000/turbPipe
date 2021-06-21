@@ -1,6 +1,7 @@
 ## Nek5000 case for simulation and post-processing of fully-developed turbulent pipe flow
 ### Two cases compatible with Nek5000 **v.17** and **v.19** are available. 
 
+### Notice: This repository is not developed any longer. For more recent versions check pipe_STAT example in [KTH_Examples](https://github.com/KTH-Nek5000/KTH_Examples)
 
 ### General:
   - Nek5000 v.17 case: `./turbPipe_v17/`
